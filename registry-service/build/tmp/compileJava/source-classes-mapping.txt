@@ -1,0 +1,2 @@
+com/innova/movies/registry/RegistryServiceApplication.java
+ com.innova.movies.registry.RegistryServiceApplication
