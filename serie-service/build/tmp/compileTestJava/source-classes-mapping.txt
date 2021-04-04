@@ -1,0 +1,6 @@
+com/innova/movies/serie/SerieServiceApplicationTests.java
+ com.innova.movies.serie.SerieServiceApplicationTests
+com/innova/movies/serie/SerieServiceMockTest.java
+ com.innova.movies.serie.SerieServiceMockTest
+com/innova/movies/serie/SerieRepositoryMockTest.java
+ com.innova.movies.serie.SerieRepositoryMockTest

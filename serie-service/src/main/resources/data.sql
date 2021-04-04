@@ -1,0 +1,3 @@
+Insert into tbl_series(id, nombre, genero, imagen, link, fecha) VALUES (1, 'Malcolm in the middle', 'Comedia', 'https://images-na.ssl-images-amazon.com/images/I/71twoSpqkuL._AC_SY445_.jpg', 'http://localhost:8080/Proyecto/comedia.html', '2010-01-01');
+Insert into tbl_series(id, nombre, genero, imagen, link, fecha) VALUES (2, 'The mandalorian', 'Ciencia ficcion', 'https://m.media-amazon.com/images/I/91Ng7k7o0GL._AC_SY879_.jpg', 'http://localhost:8080/Proyecto/cienciaficcion.html', '2011-01-01');
+Insert into tbl_series(id, nombre, genero, imagen, link, fecha) VALUES (3, 'La casa de papel', 'Drama', 'https://m.media-amazon.com/images/I/61Mon+1Ai-L._AC_SY741_.jpg', 'http://localhost:8080/Proyecto/drama.html', '2012-01-01');

@@ -1,0 +1,16 @@
+com/innova/movies/serie/service/SerieServiceImplement.java
+ com.innova.movies.serie.service.SerieServiceImplement
+com/innova/movies/serie/entity/Serie.java
+ com.innova.movies.serie.entity.Serie
+ com.innova.movies.serie.entity.Serie$SerieBuilder
+com/innova/movies/serie/service/SerieService.java
+ com.innova.movies.serie.service.SerieService
+com/innova/movies/serie/repository/SerieRepository.java
+ com.innova.movies.serie.repository.SerieRepository
+com/innova/movies/serie/SerieServiceApplication.java
+ com.innova.movies.serie.SerieServiceApplication
+com/innova/movies/serie/controller/SerieController.java
+ com.innova.movies.serie.controller.SerieController
+com/innova/movies/serie/controller/ErrorMessage.java
+ com.innova.movies.serie.controller.ErrorMessage
+ com.innova.movies.serie.controller.ErrorMessage$ErrorMessageBuilder
