@@ -3,7 +3,6 @@
 # http://localhost:8091/h2-console
 # ==================================
 
-
 #Application Configuration
 server:
   port: 8091
@@ -15,12 +14,13 @@ spring:
   # ===============================
   # DB
   # ===============================
-   datasource:
-     url: jdbc:mysql://localhost:3306/finalweb?useTimezone=true&serverTimezone=UTC
-     driverClassName: com.mysql.cj.jdbc.Driver
+  datasource:
+    url: jdbc:mysql://localhost:3306/finalweb?useTimezone=true&serverTimezone=UTC
+    driverClassName: com.mysql.cj.jdbc.Driver
 
-     platform: mysql
-     username: root
+    platform: mysql
+    username: root
+    password: 1234
 
   # ===============================
   # JPA / HIBERNATE
@@ -38,7 +38,7 @@ spring:
 
 logging:
   pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+    console: '%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n'
 eureka:
   client:
     serviceUrl:
