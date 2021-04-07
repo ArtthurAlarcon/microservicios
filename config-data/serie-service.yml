@@ -15,19 +15,18 @@ spring:
   # ===============================
   # DB
   # ===============================
-   data.mongodb:
-    host: 127.0.0.1
-    port: 27017
-    uri: mongodb://127.0.0.1:27017/finalweb
-    database: finalweb
+  # data.mongodb:
+   # host: 127.0.0.1
+    #port: 27017
+    #uri: mongodb://127.0.0.1:27017/finalweb
+    #database: finalweb
 
-  # datasource:
-  #   url: jdbc:mysql://localhost:3306/finalweb?useTimezone=true&serverTimezone=UTC
-  #   driverClassName: com.mysql.cj.jdbc.Driver
+   datasource:
+     url: jdbc:mysql://localhost:3306/finalweb?useTimezone=true&serverTimezone=UTC
+     driverClassName: com.mysql.cj.jdbc.Driver
 
-  #   platform: mysql
-  #   username: root
-  #   password: 1234
+     platform: mysql
+     username: root
 
   # ===============================
   # JPA / HIBERNATE
